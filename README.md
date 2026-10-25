@@ -7,7 +7,7 @@
 **Next-generation, developer-centric artificial intelligence ecosystem.**  
 *High-performance web intelligence and autonomous CLI developer agents.*
 
-[![Website](https://img.shields.io/badge/Web%20Platform-v2.wildai.pl-10a37f?style=for-the-badge&logo=openai&logoColor=white)](https://v2.wildai.pl)
+[![Website](https://img.shields.io/badge/Web%20Platform-chat.wildai.pl-10a37f?style=for-the-badge&logo=openai&logoColor=white)](https://chat.wildai.pl)
 [![Organization](https://img.shields.io/badge/GitHub-wildai--poland-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wildai-poland)
 [![Release](https://img.shields.io/badge/Release-Active-emerald?style=for-the-badge)](https://github.com/wildai-poland/wildai-cli)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
@@ -67,7 +67,7 @@
         Next.js 16 (Turbopack) production chat client featuring multi-model inference, quota management via serverless PostgreSQL, real-time streaming, and user personalization.
       </td>
       <td>
-        <a href="https://v2.wildai.pl"><code>Live Platform</code></a>
+        <a href="https://chat.wildai.pl"><code>Live Platform</code></a>
       </td>
     </tr>
   </tbody>
