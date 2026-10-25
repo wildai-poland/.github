@@ -48,6 +48,19 @@
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/wildai-poland/wildai-vscode">
+          <b>🧩 wildai-vscode</b>
+        </a>
+      </td>
+      <td>
+        Official Visual Studio Code extension. Features a real-time streaming sidebar assistant, right-click code explanation/refactoring/test generation, one-click editor insertion, and encrypted token management.
+      </td>
+      <td>
+        <code>v0.1.0 • Public</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <b>💬 WildAI Chat Web Platform</b>
       </td>
       <td>
