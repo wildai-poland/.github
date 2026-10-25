@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/wildai-poland/.github/main/assets/logo.png" width="160" height="160" alt="WildAI Logo" />
+
 # WildAI Poland
 
 **Next-generation, developer-centric artificial intelligence ecosystem.**  
