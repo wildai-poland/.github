@@ -1,0 +1,29 @@
+name: 💡 Propozycja nowej funkcji (Feature request)
+description: Zaproponuj nową funkcję lub ulepszenie dla WildAI
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za Twój pomysł! Opisz nową funkcjonalność, która mogłaby wzbogacić ekosystem WildAI.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Jaki problem rozwiązuje ta funkcja?
+      description: Wyjaśnij, czego brakuje lub co mogłoby działać sprawniej.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proponowane rozwiązanie
+      description: Jak wyobrażasz sobie działanie tej funkcji?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Rozważane alternatywy
+      description: Czy brałeś pod uwagę inne podejścia?
+    validations:
+      required: false

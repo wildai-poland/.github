@@ -1,0 +1,43 @@
+name: 🐛 Zgłoszenie błędu (Bug report)
+description: Utwórz zgłoszenie, aby pomóc nam naprawić błąd w ekosystemie WildAI
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za zgłoszenie problemu! Wypełnij poniższe pola, abyśmy mogli jak najszybciej go zdiagnozować.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Którego projektu dotyczy problem?
+      options:
+        - WildAI Chat v2 (Web)
+        - WildAI CLI (Terminal)
+        - Inny komponent
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Opis błędu
+      description: Jasny i zwięzły opis tego, co poszło nie tak.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Kroki do odtworzenia
+      description: Jak wywołać ten błąd krok po kroku?
+      placeholder: |
+        1. Wpisz komendę '...'
+        2. Kliknij '...'
+        3. Wystąpił błąd '...'
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Środowisko
+      description: Np. macOS Sequoia / Node 20 / Chrome 124
+    validations:
+      required: false
