@@ -1,41 +1,29 @@
-# Polityka Bezpieczeństwa (Security Policy) — WildAI Poland
+# Security Policy — WildAI Poland
 
-W WildAI Poland bezpieczeństwo naszych użytkowników, ich kodu oraz danych systemowych jest najwyższym priorytetem. Niniejszy dokument opisuje procedurę zgłaszania oraz postępowania z potencjalnymi lukami w zabezpieczeniach.
+WildAI Poland takes the security of our software products and services seriously. This document outlines our vulnerability handling processes and security practices.
 
 ---
 
-## 🛡️ Wspierane wersje
+## Supported Versions
 
-Poniższa tabela przedstawia wspierane wersje poszczególnych komponentów ekosystemu:
-
-| Projekt | Wersja | Wsparcie łatek bezpieczeństwa |
+| Product | Version | Supported |
 | :--- | :---: | :---: |
-| **WildAI Chat v2** | `2.x` | ✅ Aktywne |
-| **WildAI CLI** | `1.2.x` | ✅ Aktywne |
-| **WildAI CLI** | `< 1.2` | ❌ Brak wsparcia (zalecana aktualizacja) |
+| **wildai-cli** | `>= 1.2.0` | ✅ Active |
+| **wildai-cli** | `< 1.2.0` | ❌ End of Life |
 
 ---
 
-## 🚨 Jak zgłaszać luki bezpieczeństwa (Responsible Disclosure)
+## Reporting a Vulnerability
 
-**Prosimy NIE publikować publicznych issue na GitHubie dotyczących luk podatności do momentu ich załatania.**
+**Please do NOT disclose vulnerabilities publicly in issues or pull requests.**
 
-Jeśli odkryłeś lukę bezpieczeństwa w którymkolwiek projekcie organizacji **WildAI Poland**:
+If you believe you have discovered a security vulnerability in any WildAI Poland repository:
 
-1. Skontaktuj się bezpośrednio z zespołem bezpieczeństwa:
-   - **Email:** `security@wildai.pl` lub `deloskiyt@gmail.com`
-   - **Temat wiadomości:** `[SECURITY] Podatność w <nazwa_projektu>`
-2. W zgłoszeniu prosimy zawrzeć:
-   - Dokładny opis problemu (Proof of Concept, kroki do odtworzenia).
-   - Ocenę wpływu podatności (np. wyciek danych, Remote Code Execution, Path Traversal, ominięcie autoryzacji).
-   - Wersję oprogramowania oraz środowisko (system operacyjny, wersja Node.js).
+1. Send a confidential report to our security response team:
+   - **Email:** `security@wildai.pl`
+2. Include comprehensive technical details:
+   - Reproduction steps or proof of concept.
+   - Impact assessment (e.g., privilege escalation, sandbox escape, credential exposure).
+   - Relevant environment details (OS version, runtime architecture).
 
----
-
-## ⏱️ Harmonogram odpowiedzi
-
-* **Potwierdzenie zgłoszenia:** do 48 godzin od momentu otrzymania wiadomości.
-* **Wstępna weryfikacja i ocena ryzyka:** do 5 dni roboczych.
-* **Publikacja poprawki (Patch):** zależnie od krytyczności, zazwyczaj od 2 do 14 dni.
-
-Dziękujemy wszystkim badaczom i użytkownikom wspierającym bezpieczeństwo otwartego ekosystemu AI!
+We acknowledge receipt of security reports within **48 hours** and provide triage updates regularly until resolution.

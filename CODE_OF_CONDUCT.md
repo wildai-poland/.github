@@ -1,27 +1,13 @@
-# Kodeks Postępowania (Code of Conduct) — WildAI Poland
+# Code of Conduct — WildAI Poland
 
-## 🤝 Nasze Zobowiązanie
+## Our Pledge
 
-Jako członkowie, współtwórcy i liderzy społeczności **WildAI Poland**, zobowiązujemy się do tworzenia środowiska otwartego, przyjaznego, wolnego od nękania i opartego na wzajemnym szacunku dla wszystkich, bez względu na wiek, poziom doświadczenia, narodowość, tożsamość czy poglądy.
+We as members, contributors, and maintainers of **WildAI Poland** pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
----
-
-## 🌟 Standardy Zachowania
-
-Pozytywne zachowania:
-* Używanie życzliwego i konstruktywnego języka.
-* Szanowanie różnych punktów widzenia i doświadczeń.
-* Przyjmowanie konstruktywnej krytyki z otwartością.
-* Skupienie na tym, co jest najlepsze dla społeczności i projektów.
-
-Niedopuszczalne zachowania:
-* Używanie obraźliwego języka, wyzwiska lub ataki personalne.
-* Nękanie publiczne lub prywatne.
-* Publikowanie cudzych prywatnych danych (doxxing).
-* Celowe trollowanie lub prowokowanie konfliktów.
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ---
 
-## ⚖️ Egzekwowanie Zasad
+## Enforcement
 
-Zgłoszenia dotyczące naruszenia kodeksu można kierować do opiekunów organizacji pod adres `deloskiyt@gmail.com`. Wszystkie zgłoszenia będą rozpatrywane poufnie i sprawiedliwie.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leadership at `contact@wildai.pl`. All complaints will be reviewed and investigated promptly and fairly.
