@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="darkSpace" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#121215" />
+      <stop offset="100%" stop-color="#040405" />
+    </radialGradient>
+
+    <!-- Facet Gradients for 3D Grok Origami / Wireframe Look -->
+    <linearGradient id="facetTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#B0B9C6" />
+    </linearGradient>
+
+    <linearGradient id="facetFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <linearGradient id="facetShadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="neonSlash" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Icon Container -->
+  <rect width="512" height="512" rx="112" fill="url(#darkSpace)" />
+  <rect width="512" height="512" rx="112" fill="none" stroke="#26262b" stroke-width="2.5" />
+
+  <!-- Symmetrical Geometric Monolith 'W' with Grok-style Cuts -->
+  <g transform="translate(256, 256)">
+    <!-- Ambient subtle shadow behind mark -->
+    <ellipse cx="0" cy="150" rx="140" ry="25" fill="#000000" opacity="0.6" filter="blur(10px)" />
+
+    <!-- Left Wing Outer Facet -->
+    <polygon points="-160,-120 -95,-120 -30,80 -80,80" fill="url(#facetFront)" />
+    <!-- Left Wing Upper Bevel -->
+    <polygon points="-160,-120 -95,-120 -115,-140 -180,-140" fill="url(#facetTop)" />
+    <!-- Left Wing Bottom Shadow -->
+    <polygon points="-80,80 -30,80 -45,115 -95,115" fill="url(#facetShadow)" />
+
+    <!-- Left Inner Slanted Blade -->
+    <polygon points="-75,-40 -25,-40 30,120 -15,120" fill="url(#facetTop)" />
+    <polygon points="30,120 -15,120 -25,135 15,135" fill="url(#facetShadow)" />
+
+    <!-- Center Geometric Monolith Slice -->
+    <polygon points="-20,-120 25,-120 70,25 25,25" fill="url(#facetFront)" />
+    <polygon points="-20,-120 25,-120 10,-140 -35,-140" fill="url(#facetTop)" />
+
+    <!-- Right Wing Outer Facet -->
+    <polygon points="45,-40 95,-40 165,115 115,115" fill="url(#facetFront)" />
+    <polygon points="45,-40 95,-40 115,-60 65,-60" fill="url(#facetTop)" />
+    <polygon points="165,115 115,115 100,135 150,135" fill="url(#facetShadow)" />
+
+    <!-- High-tech Slashed Cutline Overlays -->
+    <line x1="-180" y1="-140" x2="-45" y2="115" stroke="#FFFFFF" stroke-width="2" opacity="0.4" />
+    <line x1="-35" y1="-140" x2="25" y2="25" stroke="#FFFFFF" stroke-width="2" opacity="0.6" />
+    <line x1="115" y1="-60" x2="165" y2="115" stroke="#FFFFFF" stroke-width="2" opacity="0.5" />
+  </g>
+</svg>
